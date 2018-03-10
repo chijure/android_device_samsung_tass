@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for i in eng userdebug; do
-    add_lunch_combo cm_tass-${i}
+    add_lunch_combo lineage_tass-${i}
 done
