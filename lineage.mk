@@ -7,7 +7,7 @@ $(call inherit-product, device/samsung/tass/full_tass.mk)
 # Inherit some common CM stuff.
 TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
-$(call inherit-product, vendor/cm/config/mini.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Overrides
 PRODUCT_NAME := lineage_tass
